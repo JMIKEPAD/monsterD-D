@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+.monster-list{
+    z-index: 100;
+}
+
+
+.monster-card{
+    padding: 8px;
+    border-style: solid !important;
+    border: 5px;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    background-color: aliceblue;
+    z-index: 100;
+    width: 15%;
+}
+
+.bold{
+    font-weight: bold;
+  
+}
+
+.large-font{
+    font-size: large;
+}
+
+
+.img-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+
+ul{
+    list-style-type: none;
+
+
+}
+h1{
+    color: aliceblue;
+    background-color: black;
+    margin-left: 90px;
+    width: 15%;
+    text-align: center;
+}
+
+#details{
+    border-style: solid !important;
+    border: 5px;
+    border-radius: 8px;
+    margin-left: 50px;
+    position: fixed;
+    left: 410px;
+    background-color: aliceblue;
+    z-index: 100;
+    width: 75%;
+    height: 88.5%;
+
+}
+
+.detail-style{
+   font-size: 93px;
+   text-align: center;
+   padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+ body{
+    /* background-image: url("./img/sfondo.jpg");
+  filter: blur(10px);
+  -webkit-filter: blur(10px) ; */
+
+  font-family: 'Cinzel Decorative', cursive;
+} 
